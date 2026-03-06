@@ -1,0 +1,17 @@
+{
+  "name": "todo_app_frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frontend for the Todo app, providing the user interface for managing todos.",
+  "scripts": {
+    "start": "PORT=$REACT_APP_PORT react-scripts start",
+    "build": "react-scripts build",
+    "test": "CI=true react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.1"
+  }
+}
